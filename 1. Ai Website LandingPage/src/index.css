@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #01030f;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-[#9D9D9D] from-0% via-[#EDEDED] via-50% to-[#9D9D9D] to-100% bg-clip-text text-transparent;
+}
+
+.button-inner-shadow {
+    @apply shadow-inner-custom;
+}
